@@ -1,0 +1,24 @@
+sky:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    host: localhost
+    port: 3306
+    database: sky_take_out
+    username: root
+    password: 你的数据库密码
+  alioss:
+    endpoint: oss-cn-beijing.aliyuncs.com
+    access-key-id: 你的AccessKeyId
+    access-key-secret: 你的AccessKeySecret
+    bucket-name: 你的bucket名
+  redis:
+    host: localhost
+    port: 6379
+    password: 你的redis密码
+    database: 10
+  wechat:
+    appid: 你的小程序appid
+    secret: 你的小程序secret
+  # 本地文件存储（开发期替代OSS）
+  upload:
+    dir: 你本机的上传目录路径

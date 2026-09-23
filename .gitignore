@@ -1,0 +1,33 @@
+# ===== 敏感配置（含真实密码/密钥，禁止提交）=====
+**/application-dev.yml
+**/application-local.yml
+
+# ===== 编译/构建产物 =====
+**/target/
+**/*.class
+**/*.iml
+node_modules/
+node-modules/
+
+# ===== IDE =====
+.idea/
+**/.idea/
+.vscode/
+**/.vscode/
+*.swp
+
+# ===== 日志 =====
+*.log
+*.log.*
+*.gz
+
+# ===== 临时/测试文件 =====
+test_avatar.png
+upload-files/
+**/upload/
+
+# ===== 操作系统 =====
+Thumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+.DS_Store
