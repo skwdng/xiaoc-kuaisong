@@ -20589,7 +20589,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.baseUrl = 
 //模拟器(devtools)直连本机后端：localhost在系统代理绕过名单内，不受VPN代理和cpolar域名变化影响
 //真机/预览/体验版(别人手机)仍走cpolar公网HTTPS域名，互不影响
 var _sysInfo = wx.getSystemInfoSync();
-var baseUrl = _sysInfo.platform === 'devtools' ? 'http://localhost:8080' : 'https://57d851d0.r30.cpolar.top';
+var baseUrl = _sysInfo.platform === 'devtools' ? 'http://localhost:8080' : 'https://10156e0e.r30.cpolar.top';
 //局域网调试备用（手机与电脑连同一Wi-Fi时）：
 //var baseUrl = _sysInfo.platform === 'devtools' ? 'http://localhost:8080' : 'http://192.168.43.6:8080';
 

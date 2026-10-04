@@ -305,12 +305,12 @@
   line-height: 48rpx;
   text-align: center;
   opacity: 1;
-  background: #ffc200;
+  background: #FF5722;
   border-radius: 24rpx;
   font-size: 12px;
   font-family: PingFangSC, PingFangSC-Medium;
   font-weight: 500;
-  color: #333333;
+  color: #fff;
 }
 .home_content .restaurant_menu_list .vegetable_order_list .seize_seat.data-v-0b00c929 {
   width: 100%;
@@ -400,8 +400,8 @@
 .home_content .order_form .order_but.data-v-0b00c929 {
   font-family: PingFangSC, PingFangSC-Medium;
   font-weight: 500;
-  color: #333333;
-  background: #ffc200;
+  color: #fff;
+  background: #FF5722;
 }
 .home_content .pop_mask.data-v-0b00c929 {
   position: fixed;
@@ -668,7 +668,7 @@
   font-weight: 500;
   font-size: 28rpx;
   opacity: 1;
-  background: #ffc200;
+  background: #FF5722;
   border-radius: 30rpx;
 }
 .home_content .pop_mask .more_norm_pop.data-v-0b00c929 {
@@ -727,8 +727,8 @@
   color: #333333;
 }
 .home_content .pop_mask .more_norm_pop .items_cont .item_row .flavor_item .act.data-v-0b00c929 {
-  background: #ffc200;
-  border: 1px solid #ffc200;
+  background: #FF5722;
+  border: 1px solid #FF5722;
   font-family: PingFangSC, PingFangSC-Medium;
   font-weight: 500;
 }
@@ -778,7 +778,7 @@
   font-weight: 500;
   font-size: 28rpx;
   opacity: 1;
-  background: #ffc200;
+  background: #FF5722;
   border-radius: 30rpx;
 }
 .home_content .pop_mask .lodding.data-v-0b00c929 {

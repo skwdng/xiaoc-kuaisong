@@ -449,11 +449,11 @@
 .order_content .footer_order_buttom .order_but .order_but_rit {
   width: 200rpx;
   border-radius: 72rpx;
-  background: #ffc200;
+  background: #FF5722;
   font-size: 30rpx;
   font-family: PingFangSC, PingFangSC-Medium;
   font-weight: 500;
-  color: #333333;
+  color: #fff;
 }
 .order_content .pop_mask {
   position: fixed;
@@ -675,14 +675,14 @@
   height: 86rpx;
   line-height: 86rpx;
   border-radius: 8rpx;
-  background: #ffc200;
-  border: 1px solid #ffc200;
+  background: #FF5722;
+  border: 1px solid #FF5722;
   opacity: 1;
   font-size: 30rpx;
   font-family: PingFangSC, PingFangSC-Medium;
   font-weight: 600;
   text-align: center;
-  color: #333333;
+  color: #fff;
   letter-spacing: 0px;
   display: flex;
   align-items: center;
@@ -700,9 +700,9 @@
   margin-bottom: 8rpx;
 }
 .btnBox button.add_btn:active, .btnBox button.add_btn:visited {
-  background: #ffc200;
-  border: 1px solid #ffc200;
-  color: #333333;
+  background: #FF5722;
+  border: 1px solid #FF5722;
+  color: #fff;
 }
 .uni-border-top-bottom .uni-list--border-top,
 .uni-border-top-bottom .uni-list--border-bottom {
@@ -754,7 +754,7 @@
   color: #666;
 }
 .timeTip text {
-  color: #ffc200;
+  color: #FF5722;
 }
 .timeIcon {
   width: 28rpx;

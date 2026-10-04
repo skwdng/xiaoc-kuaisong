@@ -251,12 +251,12 @@ page {
   font-size: 28rpx;
   font-family: PingFangSC, PingFangSC-Medium;
   font-weight: 500;
-  color: #333333;
+  color: #fff;
   margin-left: 20rpx;
   display: inline-block;
 }
 .againBtn .btn {
-  background: #ffc200;
+  background: #FF5722;
 }
 .phoneIcon {
   background: url(data:image/png;base64,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);
@@ -458,9 +458,9 @@ page {
 .payBox .wx-checkbox-input-checked,
 .payBox .wx-radio-input-checked,
 .payBox .wx-switch-input-checked {
-  background-color: #ffc200 !important;
-  border-color: #ffc200 !important;
-  color: #000 !important;
+  background-color: #FF5722 !important;
+  border-color: #FF5722 !important;
+  color: #fff !important;
   -webkit-transform: scale(0.7);
           transform: scale(0.7);
 }
@@ -476,10 +476,10 @@ radio .wx-radio-input.wx-radio-input-checked::before {
   font-size: 40rpx;
   /* 对勾大小 30rpx */
   font-weight: 600;
-  color: #000;
+  color: #fff;
   /* 对勾颜色 白色 */
-  border: 1rpx solid #ffc200;
-  background: #ffc200;
+  border: 1rpx solid #FF5722;
+  background: #FF5722;
 }
 .dish_dishFlavor {
   font-size: 20rpx;

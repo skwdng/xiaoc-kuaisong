@@ -151,7 +151,7 @@
   color: #666666;
 }
 .success_content .success_info .word_bottom .word_date.data-v-6fde291d {
-  color: #FFC200;
+  color: #FF5722;
 }
 .success_content .success_info .btns.data-v-6fde291d {
   width: 750rpx;
@@ -165,7 +165,7 @@
   height: 72rpx;
   line-height: 72rpx;
   margin-top: 20rpx;
-  background: #ffc200;
+  background: #FF5722;
   border-radius: 8rpx;
 }
 .success_content .success_info .btns .go_dish + .go_dish.data-v-6fde291d {

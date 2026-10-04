@@ -31,7 +31,7 @@
 .my-center .my_info.data-v-0be17cc6 {
   height: 172rpx;
   width: 750rpx;
-  background-color: #ffc200;
+  background-color: #FF5722;
   display: flex;
 }
 .my-center .my_info .head.data-v-0be17cc6 {
