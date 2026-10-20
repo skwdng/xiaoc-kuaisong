@@ -2,15 +2,15 @@
 
 校园外卖订餐平台，采用「微信小程序用户端 + Web 管理端 + Spring Boot 后端」三端架构，覆盖浏览点菜、购物车、下单支付、订单跟踪、商家接单调度、营业管理与数据统计的完整外卖业务闭环，并通过内网穿透实现真机公网访问。
 
-## 🎬 演示视频
+##  演示视频
 
-- 📱 [用户端演示（4.5MB）](https://github.com/skwdng/xiaoc-kuaisong/releases/download/v1.0-demo/xiaoc-user-demo.mp4)
-- 🖥️ [管理端演示（12MB）](https://github.com/skwdng/xiaoc-kuaisong/releases/download/v1.0-demo/xiaoc-admin-demo.mp4)
+-  [用户端演示（4.5MB）](https://github.com/skwdng/xiaoc-kuaisong/releases/download/v1.0-demo/xiaoc-user-demo.mp4)
+-  [管理端演示（12MB）](https://github.com/skwdng/xiaoc-kuaisong/releases/download/v1.0-demo/xiaoc-admin-demo.mp4)
 
 > 视频文件较大，GitHub 网页不支持内嵌播放，已放到 Release 附件，**点击链接即可下载播放**。
 > 完整 Release 页：[v1.0-demo](https://github.com/skwdng/xiaoc-kuaisong/releases/tag/v1.0-demo)。
 
-## ✨ 功能特性
+##  功能特性
 
 **用户端（微信小程序）**
 
@@ -37,7 +37,7 @@
 - Druid 连接池 keep-alive 保活、全局异常统一处理、Knife4j 接口文档
 - 图片统一存储相对路径，由 Nginx / 小程序端动态拼接，穿透域名变更零影响
 
-## 🧱 技术栈
+##  技术栈
 
 | 分层 | 技术 |
 |---|---|
@@ -54,7 +54,7 @@
 | 工具 | Lombok、FastJSON、Apache POI、Maven |
 | 部署 | 内置 Tomcat jar 包、Nginx 反代、cpolar 内网穿透 |
 
-## 🏗️ 架构设计
+##  架构设计
 
 ```
 微信小程序(mp-weixin)                 Web管理端(Vue静态页)
@@ -78,7 +78,7 @@
    图片上传   ──► 阿里云OSS / 本地目录，返回 /upload/ 相对路径
 ```
 
-## 📁 目录结构
+##  目录结构
 
 ```
 CExpress/
@@ -109,7 +109,7 @@ CExpress/
 └── 小c快送开机自启.bat
 ```
 
-## 🚀 快速开始
+##  快速开始
 
 ### 环境要求
 
@@ -156,7 +156,7 @@ Windows 也可直接双击根目录的 `启动小c快送后端.bat`。启动成�
 
 管理端为 Vue 静态页面，由 Nginx 部署在 80 端口，接口与 `/upload/` 请求反代到后端 8080。启动 Nginx 后访问 http://localhost ，使用 `admin` / `123456` 登录。
 
-## 🔑 核心设计说明
+##  核心设计说明
 
 **1. 双端 JWT 认证** 管理端与用户端使用独立密钥和拦截器：管理端令牌名为 `token`，用户端为 `authentication` 且有效期 7 天；拦截器校验通过后将当前操作人 id 存入 ThreadLocal，供业务层与 AOP 使用。
 
@@ -170,7 +170,7 @@ Windows 也可直接双击根目录的 `启动小c快送后端.bat`。启动成�
 
 **6. 稳定性细节** Druid 配置 keep-alive 与空闲连接检测，防止 MySQL 掐断空闲连接导致偶发 500；业务表统一 utf8mb4 支持 emoji 昵称与备注；后端日志独立输出到 `backend-app.log` 便于排查。
 
-## 📝 说明
+##  说明
 
 - 当前为**模拟支付**（未配置微信商户号），下单即标记支付成功并进入待接单；`sky-common` 已保留 `WeChatPayUtil`（微信支付 APIv3），补齐商户号与证书后可切换真实支付。
 - 管理端前端为独立工程，源码不在本仓库，功能演示见 `demo/管理端演示.mp4`。
