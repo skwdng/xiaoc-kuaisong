@@ -1,4 +1,4 @@
-# ===== 敏感配置（含真实密码/密钥，禁止提交）=====
+﻿# ===== 敏感配置（含真实密码/密钥，禁止提交）=====
 **/application-dev.yml
 **/application-local.yml
 
@@ -31,3 +31,6 @@ Thumbs.db
 [Dd]esktop.ini
 $RECYCLE.BIN/
 .DS_Store
+
+# ===== 演示视频（已移到 GitHub Release 附件）=====
+demo/*.mp4

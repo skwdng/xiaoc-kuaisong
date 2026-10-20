@@ -4,10 +4,11 @@
 
 ## 🎬 演示视频
 
-- 📱 [用户端演示（4.5MB）](demo/用户端演示.mp4)
-- 🖥️ [管理端演示（12MB）](demo/管理端演示.mp4)
+- 📱 [用户端演示（4.5MB）](https://github.com/skwdng/xiaoc-kuaisong/releases/download/v1.0-demo/xiaoc-user-demo.mp4)
+- 🖥️ [管理端演示（12MB）](https://github.com/skwdng/xiaoc-kuaisong/releases/download/v1.0-demo/xiaoc-admin-demo.mp4)
 
-> 视频文件较大，**GitHub 上请点右上角 Download 下载后观看**（Gitee 仓库支持在线播放）。
+> 视频文件较大，GitHub 网页不支持内嵌播放，已放到 Release 附件，**点击链接即可下载播放**。
+> 完整 Release 页：[v1.0-demo](https://github.com/skwdng/xiaoc-kuaisong/releases/tag/v1.0-demo)。
 
 ## ✨ 功能特性
 
